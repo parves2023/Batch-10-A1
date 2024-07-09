@@ -280,6 +280,7 @@ main .support {
     border-radius: 16px;
     color: white;
     text-align: center;
+    margin-bottom: 80px;
   }
   main .support .text-and-submit-container{
     width: 1044px;
@@ -310,4 +311,28 @@ main .support {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer .container{
+    width: 1140px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 32px 0px;
 }
