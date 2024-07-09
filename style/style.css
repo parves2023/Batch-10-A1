@@ -195,3 +195,71 @@ main .inspiration .iframe-container{
 main .inspiration .iframe-container iframe{
     border-radius: 8px;
 }
+
+
+/* current target section starts  */
+
+
+main .current-target{
+    width: 1080px;
+    height: 460px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .current-target .text-container{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+main .current-target .text-container h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+main .current-target .text-container p{
+    line-height: 26px;
+}
+
+main .current-target .skills-container{
+    width: 1060px;
+    height: 580px;
+    padding: 32px;
+    margin-top: 40px;
+    display: flex;
+    column-gap: 17px;
+}
+main .current-target .skills-container .skill-1,.skill-2,.skill-3 {
+    border-radius: 8px;
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    row-gap: 12px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+main .current-target .skills-container .skill-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+main .current-target .skills-container .skill-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+main .current-target .skills-container h4{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+
+/* current target section ends  */
