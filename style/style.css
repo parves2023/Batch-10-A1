@@ -5,6 +5,9 @@
     outline: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }  
 
 body{
     font-family: "Azeret Mono", monospace;
@@ -201,7 +204,7 @@ main .inspiration .iframe-container iframe{
 
 
 main .current-target{
-    width: 1080px;
+    width: 1140px;
     height: 460px;
     margin: 70px auto;
     display: flex;
@@ -228,12 +231,12 @@ main .current-target .text-container p{
 }
 
 main .current-target .skills-container{
-    width: 1060px;
+    width: 1140px;
     height: 580px;
     padding: 32px;
     margin-top: 40px;
     display: flex;
-    column-gap: 17px;
+    column-gap: 35px;
 }
 main .current-target .skills-container .skill-1,.skill-2,.skill-3 {
     border-radius: 8px;
