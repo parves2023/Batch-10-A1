@@ -87,9 +87,8 @@ main #hero .hero-content button{
 /* web-devlopment section starts */
 
 main .web-devlopment{
-    width: 950px;
+    width: 1080px;
     height: 1235px;
-    border: 2px solid red;
     margin: 70px auto;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -154,4 +153,45 @@ main .web-devlopment .card1 .text-area{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* inspiration section strarts */
+
+main .inspiration{
+    width: 1080px;
+    height: 770px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .inspiration .text-container{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .inspiration .text-container h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+main .inspiration .text-container p{
+    line-height: 26px;
+}
+
+main .inspiration .iframe-container{
+    width: 1000px;
+    height: 580px;
+    padding: 32px;
+    border: 2px solid red;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 40px;
+}
+main .inspiration .iframe-container iframe{
+    border-radius: 8px;
 }
