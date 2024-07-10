@@ -83,6 +83,8 @@ main #hero .hero-content button{
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    margin: 0;
+    outline: 0;
 }
 
 /* hero section ends */
@@ -90,7 +92,7 @@ main #hero .hero-content button{
 /* web-devlopment section starts */
 
 main .web-devlopment{
-    width: 1080px;
+    width: 1140px;
     height: 1235px;
     margin: 70px auto;
     border-radius: 16px;
@@ -103,7 +105,7 @@ main .web-devlopment{
 
 }
 main .web-devlopment .text-container{
-    width: 852px;
+    width: 900px;
     height: 115px;
     text-align: center;
     display: flex;
@@ -121,7 +123,7 @@ main .web-devlopment .text-container p{
 /* cards start */
 
 main .web-devlopment .card , .card2{
-    width: 850px;
+    width: 900px;
     height: 280px;
     display: flex;
     justify-content: space-between;
@@ -139,7 +141,7 @@ main .web-devlopment .card .text-area, .card2 .text-area{
     justify-content: space-between;
 }
 main .web-devlopment .card1{
-    width: 850px;
+    width: 900px;
     height: 280px;
     display: flex;
     justify-content: flex-start;
@@ -161,7 +163,7 @@ main .web-devlopment .card1 .text-area{
 /* inspiration section strarts */
 
 main .inspiration{
-    width: 1080px;
+    width: 1140px;
     height: 770px;
     margin: 70px auto;
     display: flex;
@@ -171,7 +173,7 @@ main .inspiration{
 }
 
 main .inspiration .text-container{
-    width: 852px;
+    width: 900px;
     height: 115px;
     text-align: center;
     display: flex;
@@ -187,7 +189,7 @@ main .inspiration .text-container p{
 }
 
 main .inspiration .iframe-container{
-    width: 1000px;
+    width: 1140px;
     height: 580px;
     padding: 32px;
     border: 2px solid red;
@@ -214,7 +216,7 @@ main .current-target{
 }
 
 main .current-target .text-container{
-    width: 852px;
+    width: 900px;
     height: 115px;
     text-align: center;
     display: flex;
@@ -236,7 +238,7 @@ main .current-target .skills-container{
     padding: 32px;
     margin-top: 40px;
     display: flex;
-    column-gap: 35px;
+    column-gap: 40px;
 }
 main .current-target .skills-container .skill-1,.skill-2,.skill-3 {
     border-radius: 8px;
@@ -286,7 +288,7 @@ main .support {
     margin-bottom: 80px;
   }
   main .support .text-and-submit-container{
-    width: 1044px;
+    width: 1140px;
     height: 186px;
     display: flex;
     flex-direction: column;
@@ -305,6 +307,9 @@ main .support {
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
   }
   main .support .text-and-submit-container .submit button{
     width: 120px;
